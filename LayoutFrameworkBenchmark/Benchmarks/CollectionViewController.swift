@@ -23,6 +23,7 @@ import UIKit
 class CollectionViewControllerFeedItemUIStackView: CollectionViewController<FeedItemUIStackView> {}
 
 class CollectionViewControllerFeedItemAutoLayoutView: CollectionViewController<FeedItemAutoLayoutView> {}
+class CollectionViewControllerFeedItemSwiftUIView: CollectionViewController<FeedItemSwiftUIView> {}
 class CollectionViewControllerFeedItemLayoutKitView: CollectionViewController<FeedItemLayoutKitView> {}
 class CollectionViewControllerFeedItemManualView: CollectionViewController<FeedItemManualView> {}
 class CollectionViewControllerFeedItemNotAutoLayoutView: CollectionViewController<FeedItemNotAutoLayoutView> {}

@@ -20,6 +20,24 @@ struct FeedItemData {
     let contentDomain: String
     let actorComment: String
 
+    init(actionText: String = "",
+         posterName: String = "",
+         posterHeadline: String = "",
+         posterTimestamp: String = "",
+         posterComment: String = "",
+         contentTitle: String = "",
+         contentDomain: String = "",
+         actorComment: String = "") {
+        self.actionText = actionText
+        self.posterName = posterName
+        self.posterHeadline = posterHeadline
+        self.posterTimestamp = posterTimestamp
+        self.posterComment = posterComment
+        self.contentTitle = contentTitle
+        self.contentDomain = contentDomain
+        self.actorComment = actorComment
+    }
+
     static func generate(count: Int) -> [FeedItemData] {
         var datas = [FeedItemData]()
         for i in 0..<count {

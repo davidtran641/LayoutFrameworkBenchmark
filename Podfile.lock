@@ -4,7 +4,6 @@ PODS:
   - NKFrameLayoutKit (2.4)
   - NotAutoLayout (3.2.0)
   - PinLayout (1.8.6)
-  - Reveal-SDK (19)
 
 DEPENDENCIES:
   - FlexLayout
@@ -12,7 +11,6 @@ DEPENDENCIES:
   - NKFrameLayoutKit
   - NotAutoLayout
   - PinLayout
-  - Reveal-SDK
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -21,7 +19,6 @@ SPEC REPOS:
     - NKFrameLayoutKit
     - NotAutoLayout
     - PinLayout
-    - Reveal-SDK
 
 SPEC CHECKSUMS:
   FlexLayout: b008184d23aae0c56e1c916e803445a13a6f4e5a
@@ -29,8 +26,7 @@ SPEC CHECKSUMS:
   NKFrameLayoutKit: c119f04a6ac305c7db5e29e1b856cee0e8a661bb
   NotAutoLayout: 4723ad82a21a7c6c60c823fff7f7c29467811b92
   PinLayout: fe2a2432d6982588e208572005c941aeeae417ab
-  Reveal-SDK: 9f0d2c6c12eb7507921e5454ac165b7aa21140a4
 
-PODFILE CHECKSUM: 3e63d42365b39b217c5809f0c7ebad9865d228e2
+PODFILE CHECKSUM: 3e3a6e6ad27cd9072c0ba822f2390353b995887b
 
 COCOAPODS: 1.5.3
