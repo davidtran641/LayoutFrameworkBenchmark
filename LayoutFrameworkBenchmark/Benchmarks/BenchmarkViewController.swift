@@ -7,6 +7,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
 import UIKit
+import os.log
 
 /// Runs benchmarks for different kinds of layouts.
 class BenchmarkViewController: UITableViewController {
@@ -136,7 +137,8 @@ class BenchmarkViewController: UITableViewController {
         results.forEach { (result) in
             resultsString += "\(result.secondsPerOperation)\t"
         }
-        print(resultsString)
+//        print(resultsString)
+        os_log(OSLogType.error, "%{public}s", resultsString)
     }
 
     private func runBenchmark(viewControllerData: ViewControllerData, logResults: Bool, completed: ((_ results: [Result]) -> Void)?) {
